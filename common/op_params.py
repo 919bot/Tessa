@@ -59,7 +59,7 @@ class opParams:
                            'speed_offset': {'default': 0, 'allowed_types': [float, int], 'description': 'Speed limit offset in m/s', 'live': True},
                            'alca_min_speed': {'default': 20, 'allowed_types': [float, int], 'description': 'Speed limit to start ALC in m/s', 'live': False},
                            'offset_limit': {'default': 0, 'allowed_types': [float, int], 'description': 'Speed at which apk percent offset will work in m/s', 'live': False},
-                           'dynamic_follow': {'default': 'relaxed', 'allowed_types': [str],
+                           'dynamic_follow': {'default': 'traffic', 'allowed_types': [str],
                                               'description': "Can be: ('traffic', 'relaxed', 'roadtrip'): Left to right increases in following distance.\n"
                                                              "All profiles support dynamic follow so you'll get your preferred distance while\n"
                                                              "retaining the smoothness and safety of dynamic follow!", 'live': True}}
