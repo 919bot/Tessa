@@ -137,7 +137,7 @@ ThermalStatus = cereal.log.ThermalData.ThermalStatus
 managed_processes = {
   "thermald": "selfdrive.thermald",
   "thermalonlined": "selfdrive.thermalonlined",
-  "uploader": "selfdrive.loggerd.uploader",
+ 
   "deleter": "selfdrive.loggerd.deleter",
   "controlsd": "selfdrive.controls.controlsd",
   "plannerd": "selfdrive.controls.plannerd",
