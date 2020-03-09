@@ -57,7 +57,7 @@ try:
     pass
 
   if (origin is not None) and (branch is not None):
-    comma_remote = origin.startswith('git@github.com:arne182') or origin.startswith('https://github.com/arne182')
+    comma_remote = origin.startswith('git@github.com:Anthony919nc') or origin.startswith('https://github.com/Anthony919nc')
 
     dirty = not comma_remote
     dirty = dirty or (subprocess.call(["git", "diff-index", "--quiet", branch, "--"]) != 0)
